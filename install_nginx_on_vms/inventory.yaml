@@ -1,0 +1,6 @@
+all:
+  hosts:
+    multipassvm1:
+      ansible_connection: ssh
+      ansible_host: "10.63.137.190"
+      ansible_user: ubuntu
