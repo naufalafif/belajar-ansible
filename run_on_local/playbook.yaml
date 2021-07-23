@@ -7,16 +7,16 @@
 
     - name: check if file exist
       stat:
-        path: ~/Temp/test.txt
+        path: /tmp/test.txt
       register: stat_file
 
     - name: create file on home dir
-      command: touch ~/Temp/test.txt
+      command: touch /tmp/test.txt
       changed_when: not stat_file.stat.exists
 
     # Failed Example
     - name: check if file exist
-      command: cat ~/Temp/test3.txt
+      command: cat /tmp/test3.txt
       register: check_file
       changed_when: false
       failed_when: >
