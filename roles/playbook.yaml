@@ -1,0 +1,6 @@
+---
+- name: learn roles
+  hosts: localhost
+  roles:
+    - file_creator
+    - file_remover

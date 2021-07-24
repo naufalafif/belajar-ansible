@@ -1,0 +1,4 @@
+---
+# tasks file for file_creator
+- name: create file
+  command: touch /tmp/file_from_creator.txt

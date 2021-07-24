@@ -1,0 +1,4 @@
+---
+# tasks file for file_creator
+- name: remove file
+  command: rm /tmp/file_from_creator.txt
