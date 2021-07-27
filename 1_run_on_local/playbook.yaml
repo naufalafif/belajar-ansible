@@ -1,7 +1,7 @@
 - name: Play 1
   hosts: localhost
   tasks:
-    - name: execute command 'date'
+    - name: execute command 'ls'
       changed_when: false
       command: ls
 
