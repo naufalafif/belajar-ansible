@@ -1,6 +1,6 @@
 all:
   hosts:
-    multipassvm2:
+    vagrantvm1:
       ansible_connection: ssh
-      ansible_host: "10.63.137.15"
-      ansible_user: ubuntu
+      ansible_host: "192.168.33.15"
+      ansible_user: vagrant
