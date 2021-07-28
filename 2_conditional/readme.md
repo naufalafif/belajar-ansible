@@ -1,6 +1,6 @@
 ## Run On Local
 
-menjalankan ansible di local machine
+menggunakan conditional di ansible playbook
 
 ##### Inventory
 1) localhost
