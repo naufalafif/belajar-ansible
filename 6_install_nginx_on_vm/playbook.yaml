@@ -1,5 +1,5 @@
 - name: play 1
-  hosts: multipassvm1
+  hosts: vagrantvm1
   remote_user: ubuntu
   become: true
   tasks:
