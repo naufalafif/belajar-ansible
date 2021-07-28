@@ -9,7 +9,7 @@ Ada beberapa istilah yang akan kita jumpai ketika belajar ansible. antara lain :
 Inventory adalah file yang berisi daftar host/server yang menjadi target automasi ansible atau tempat dimana script/task ansible dijalankan.
 
 contoh inventory : 
-```
+```yaml
 ---
 all:
   hosts:
@@ -23,7 +23,7 @@ all:
 Playbook adalah script automasi dari ansible dalam bentuk file yaml. Host/target, tasks dll didefinisikan dalam playbook.
 
 contoh playbook
-```
+```yaml
 ---
 - name: mejalankan script di server
   hosts: vm1
@@ -36,7 +36,7 @@ contoh playbook
 Roles adalah fitur ansible untuk mengelompokan script2. misal kita memiliki 1 playbook ansible lengkap dari setup packages, db sampai deploy aplikasi. kita bisa membagi proses2 tadi kedalam bbrp roles "install packages", "setup databases", "setup application". ketika proses2 tadi sudah dibagi kedalam bentuk roles, maka kedepannya tidak perlu lagi mendefine playbook secara manual, melainkan bisa memanggil roles yang dibutuhkan.
 
 contoh : 
-```
+```yaml
 ---
 - name: learn roles
   hosts: vm1
