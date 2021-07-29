@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p '[1] internal or [2] external varibale ? ' input
+read -p '[1] internal or [2] external variable ? ' input
 
 if [ $input == '1' ];
 then

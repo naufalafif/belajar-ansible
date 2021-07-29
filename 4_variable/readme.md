@@ -14,6 +14,6 @@ menggunakan variable di ansible playbook
 1) membuat file dari variable di file vars_file
 ##### Cara Menjalankan
 1) untuk internal variable `ansible-playbook -i inventory.yaml variable.yaml` 
-2) untuk external `ansible-playbook -i inventory.yaml variable_external_file.yaml` variable
+2) untuk external variable `ansible-playbook -i inventory.yaml variable_external_file.yaml` 
 
 atau cukup jalankan `./run.sh`
